@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bookeo Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+        <img src="images/logo-bookeo.jpg" alt="Logo Recipees" width="100">
+        <form>
+            <input type="text" name="search" id="search" placeholder="Search...">
+            <input type="submit" value="OK" class="button">
+        </form>
+    </header>
+    <nav id="mainNav">
+        <ul>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#latest-books">Latest book</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    <main>
+      <section id="introduction">
+        <h1>Welcome to Bookeo Website</h1>
+        <img src="images/logo-bookeo.jpg" alt="Welcome to Bookeo Website">
+        <p>
+            Bookeo is a comprehensive website that offers a platform for reviewing books, comics, and manga. It is an excellent resource for book lovers who are always on the lookout for new titles to add to their reading lists. Bookeo is designed to be user-friendly, making it easy for anyone to use and navigate.
+
+The website provides an extensive collection of reviews, covering a wide range of genres, from fiction to non-fiction, sci-fi to romance, and everything in between. Whether you are looking for recommendations on the latest bestsellers or hidden gems, Bookeo has got you covered.
+        </p>
+        <a class="button" href="#">Discover our latest books</a>
+      </section>
+      <section id="latest-books">
+        <h2>Latest books</h2>
+        <img src="images/1-1984.jpg" alt="1984">
+        <img src="images/2-histoires-courtes.jpg" alt="Histoires courtes">
+        <img src="images/3-zai-zai-zai-zai.jpg" alt="Zai Zai Zai Zai">
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form method="post">
+          <p>
+            <label for="topic">Select a topic</label>
+            <select name="topic" id="topic">
+              <option value="customer">Customer service</option>
+              <option value="Technical support">Technical support</option>
+            </select>
+          </p>
+          <p>
+            <label for="message">Your message</label>
+            <textarea name="message" id="message" cols="30" rows="15"></textarea>
+          </p>
+          <p>
+            <input type="submit" value="Send" class="button" name="send">
+          </p>
+
+
+        </form>
+       
+      </section>
+      <section id="categories">
+        <h2>Categories</h2>
+        <nav>
+          <ul>
+            <li><a href="#">Thriller</a></li>
+            <li><a href="#">Science-Fiction</a></li>
+            <li><a href="#">Manga</a></li>
+            <li><a href="#">Comics</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section id="subscription">
+        <h2>Subscribe to our newsletter</h2>
+        <form>
+          <input type="email" id="email" name="email" placeholder="example@example.com">
+          <input type="submit" value="Subscribe" class="button">
+        </form>
+      </section>
+    </main>
+    <footer>
+        <div id="footer-top">
+            <nav>
+                <ul>
+                  <li><a href="#introduction">Introduction</a></li>
+                  <li><a href="#latest-books">Latest book</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="footer-bottom">
+            <p>Copyright Bookeo Website</p>
+            <nav>
+              <ul>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </nav>
+            
+        </div>
+    </footer>
+  </body>
+</html>

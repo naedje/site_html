@@ -1,0 +1,114 @@
+/* Cibler le body et mettre Tahoma comme police */
+
+body {
+   font-family: Tahoma;
+}
+
+/* Cibler h1, h2 et h3, passer le texte en uppercase et changer la couleur du texte en #be393c */
+
+h1, h2, h3 {
+   text-transform: uppercase;
+   color: #be393c;   
+}
+
+
+/* Cibler h1, centrer le texte, ajouter une bordure en dessous de 15px en pointillés couleur #be393c, 
+   mettre un padding bas de 15px et définir la taille de police à 48px */
+
+   h1 {
+   text-align: center;
+   border-bottom: 15px dotted #be393c;
+   padding-bottom: 15px;
+}
+
+
+/* Cibler h3 et ajouter une marge à gauche de 10px */
+
+h3 {
+   margin-left: 10px;
+}
+
+
+/* Cibler ul, mettre un fond #be393c, ajouter une bordure gauche de 6px couleur #be393c, 
+   mettre un padding de 40px et définir la taille de police à 20px */
+
+ul {
+   background-color: #be393c;
+   border-left: 6px #be393c;
+   padding: 40px;
+   font-size: 20px;
+}
+
+
+/* Cibler li et mettre la couleur du texte en blanc */
+
+li {
+   color: white;
+}
+
+
+/* Cibler a:hover et mettre le texte en gras et la couleur en gris clair */
+
+a:hover {
+   font: bold;
+   color: lightgrey;
+}
+
+
+/* Cibler #introduction, définir la taille de police à 24px, 
+   ajouter une bordure de 10px couleur #be393c, un padding de 30px, 
+   et des marges gauche/droite de 50px */
+
+#introduction {
+   font-size: 24px;
+   border: 10px solid #be393c;
+   padding: 30px;
+   margin-left: 50px;
+}
+
+/* Cibler #introduction strong et mettre la couleur du texte en #be393c */
+
+#introduction, strong {
+   color: #be393c;
+}
+
+
+/* Cibler h2, ajouter une bordure haute de 4px couleur #be393c, 
+   un padding haut de 10px et définir la taille de police à 28px */
+
+h2 {
+   border-top: 4px solid #be393c;
+}
+
+/* Cibler p, mettre la police en Verdana, la taille à 20px, 
+   aligner le texte en justifié et ajouter un padding de 10px */
+
+p {
+   font-family: verdana;
+   font-size: 20px;
+   text-align: justify;
+   padding: 10px;
+}
+
+
+/* Cibler la classe .highlight et mettre un fond #be393c et le texte en blanc */
+
+.highlight {
+   background-color: #be393c;
+   color: white;
+}
+
+
+/* Cibler a et mettre la couleur du texte en blanc */
+
+a {
+   color: white;
+}
+
+
+/* Cibler footer et mettre un fond #be393c et le texte en blanc */
+
+footer {
+   background-color: #be393c;
+   color: white;
+}
