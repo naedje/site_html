@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    grid-template-areas:
+    "header header header header"
+    "main main main side"
+    "main main main side";
+}
+header {
+    grid-area: header;
+}
+main {
+    grid-area: main;
+}
+#side {
+    grid-area: side;
+}
+div, main {
+    border: 2px solid black;
+}
+
+h1, h2 {
+    font-family: ;
+}
