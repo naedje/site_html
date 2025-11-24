@@ -1,4 +1,10 @@
 function Hello() {
     const Prenom = document.getElementById("Prenom");
-    alert("Bonjour " + Prenom.value)
+    const message = document.getElementById("message");
+
+    if (Prenom.value === "Jane") {
+        message.innerText = `J'adore ce prénom !`;
+    } else {
+        message.innerText = `Bonjour ${Prenom.value} !`;
+    }
 }

@@ -4,20 +4,83 @@ body {
     "header header header header"
     "main main main side"
     "main main main side";
-}
-header {
-    grid-area: header;
-}
-main {
-    grid-area: main;
-}
-#side {
-    grid-area: side;
-}
-div, main {
-    border: 2px solid black;
+    font-family: "Manrope", sans-serif;
 }
 
-h1, h2 {
-    font-family: ;
+header {
+    grid-area: header;
+    display: flex;
+}
+
+h1, h2, h3 {
+    font-family: "Inter", sans-serif; 
+}
+
+h1 {
+    color: #2f184b;
+    font-size: 40px;
+    justify-content: center;
+    padding: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+main {
+    grid-area: main;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #f4effa;
+}
+
+#side {
+    grid-area: side;
+    padding-left: 30px;
+    background-color: #2f184b;
+    padding-right: 30px;
+}
+
+main, #side {
+    border-top: 1px solid #2f184b;
+}
+
+main h2, #side h2 {
+    background-color: #c8b1e4;
+    border-radius: 30px;
+    padding: 10px;
+    padding: 20px;
+}
+
+main h2, main h3 {
+    color: #2f184b;
+}
+
+main p, main h4 {
+    color: #532b88;
+}
+
+#side h2 {
+    color: #f4effa;
+}
+
+#side p, #side h4, #side li {
+    color: #c8b1e4;
+}
+
+.lieu {
+    font-size: 14px;
+    color: #665b74;
+}
+
+li {
+    list-style: inside;
+}
+
+#contact li {
+    list-style-type: square;
 }
