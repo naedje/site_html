@@ -10,6 +10,8 @@ body {
 header {
     grid-area: header;
     display: flex;
+    flex-direction: column;
+    padding: 30px;
 }
 
 h1, h2, h3 {
@@ -20,7 +22,7 @@ h1 {
     color: #2f184b;
     font-size: 40px;
     justify-content: center;
-    padding: 30px;
+    
 }
 
 h2 {
