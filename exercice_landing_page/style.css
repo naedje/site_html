@@ -65,10 +65,33 @@ a .bouton {
     padding: 20px;
 }
 
+#contact {
+    background-color: #e6f0e6;
+    padding: 50px;
+    text-align: center;
+}
+
 #contact form{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    
+    max-width: 400px;
+    gap: 10px;
+    padding-top: 30px;
 }
 
-#contact 
+#contact label {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+#sujet {
+    font-weight: bolder;
+}
+
+#contact input, #contact select, #contact textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #1d4d2c;
+}
+
