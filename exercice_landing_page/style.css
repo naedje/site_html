@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+section {
+    padding: 40px;
+    gap: 20px;
+
+}
+
+#hero {
+    background-color: #e6f0e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3 {
+    color: #1d4d2c;
+}
+
+img {
+    width: 400px;
+    transition: transform 300ms;
+    margin-bottom: 10px;
+}
+
+img:hover {
+    transform: translateY(20px);
+}
+
+a .bouton {
+    flex-direction: row;
+}
+
+.bouton {
+    background-color: #1d4d2c;
+    color: #E3CC76;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 20px;
+    flex-direction: row;
+    
+    transform: scale(0.8);
+    transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+
+.bouton:hover {
+    transform: scale(0.9);
+}
+
+#avantages {
+    text-align: center;
+}
+
+#colonnes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.avantage {
+    background-color: #e6f0e6;
+    padding: 20px;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+#contact 

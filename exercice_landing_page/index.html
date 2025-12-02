@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Préservons nos forêts</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="hero">
+      <h1>“Préservons la vie qui grandit dans l'ombre des forêts”</h1>
+      <p>
+        Les mousses, lichens et arbres forment un écosystème fragile et
+        essentiel à notre planète. Ensemble, protégeons-les.
+      </p>
+      <img
+        src="https://fastly.picsum.photos/id/19/2500/1667.jpg?hmac=7epGozH4QjToGaBf_xb2HbFTXoV5o8n_cYzB7I4lt6g"
+        alt="mousse sur un arbre"
+      />
+      <a href="#contact" class="bouton">Devenir bénévole</a>
+    </section>
+
+    <section id="avantages">
+      <h2>Les forêts régulent notre avenir</h2>
+      <div id="colonnes">
+        <div class="avantage">
+          <h3>Biodiversité</h3>
+          <p>Conserver les espèces qui vivent dans l'ombre des arbres.</p>
+        </div>
+        <div class="avantage">
+          <h3>Climat</h3>
+          <p>Les forêts sont essentielles pour capturer le CO2.</p>
+        </div>
+        <div class="avantage">
+          <h3>Écosystème</h3>
+          <p>Soutenir la régénération naturelle des zones forestières.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="" method="post">
+            <select name="" id="">
+                <option value="don">Faire un don</option>
+                <option value="benevole">Devenir Bénévole</option>
+                <option value="infos">Recevoir plus d'infos</option>
+            </select>
+            <input type="email" name="email" id="email" placeholder="Votre email">
+            <label for="msg">Votre message</label>
+            <textarea name="msg" id="msg"></textarea>
+            <label for="box">J'accepte la collecte de mes données</label>
+            <input type="checkbox" name="box" id="box" required>
+            <input type="submit" value="Envoyer" class="bouton">
+        </form>
+    </section>
+  </body>
 </html>
