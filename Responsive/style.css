@@ -1,0 +1,29 @@
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+article h2 {
+    font-size: 2rem;
+}
+section p {
+    font-size: 1.5rem;
+}
+
+/*
+Smartphone : 760px
+Tablette : entre 980px et 1200px
+Ordinateur : au dessus de 1200px
+*/
+
+@media (min-width: 980px) and (max-width: 1199px) {
+    section {
+        flex-direction: row;
+    }
+    article h2 {
+        font-size: 1.5rem;
+    }
+    article {
+        background-color: lightblue;
+    }
+}

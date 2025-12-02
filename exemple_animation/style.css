@@ -1,0 +1,26 @@
+section {
+    display: flex;
+}
+
+.button {
+    background-color: darkslategrey;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transform: scale(0.8);
+    transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1);
+}
+
+img {
+    transition: transform 300ms ease-in-out;
+}
+
+img:hover {
+    transform: translateY(30px);
+}
